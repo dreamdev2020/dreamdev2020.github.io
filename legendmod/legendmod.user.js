@@ -67,7 +67,7 @@ switch (mode) {
         Htmlscript(modwebsite);
         break;
     case 'neo': 
-        modwebsite = 'https://legendmod.ml/LMexpress/LMexpress.html';
+        modwebsite = 'https://dreamdev2020.github.io/legendmod/LMexpress.html';
         Htmlscript(modwebsite);
 		setTimeout(function() {		
 			modwebsite = 'https://legendmod.ml/ExampleScripts/Neoprivate.js';
@@ -75,7 +75,7 @@ switch (mode) {
 		}, 5000);
 	break;	
     case 'mobile': 
-        modwebsite = 'https://legendmod.ml/LMexpress/LMexpress.html';
+        modwebsite = 'https://dreamdev2020.github.io/legendmod/LMexpress.html';
         Htmlscript(modwebsite);
 		setTimeout(function() {		
 			modwebsite = 'https://legendmod.ml/ExampleScripts/gamepad.user.js';
@@ -83,7 +83,7 @@ switch (mode) {
 		}, 5000);
 	break;			
     case 'legendmod': default:
-        modwebsite = 'https://legendmod.ml/LMexpress/LMexpress.html';
+        modwebsite = 'https://dreamdev2020.github.io/legendmod/LMexpress.html';
         Htmlscript(modwebsite);
         break;
 }
